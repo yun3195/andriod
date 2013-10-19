@@ -1,0 +1,1 @@
+repo init -u git://github.com/yun3195/slim.git -b jb4.3 && repo sync -fj8
