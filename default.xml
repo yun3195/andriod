@@ -421,7 +421,7 @@
   <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" remote="gh" revision="cm-10.2" groups="caf" />
   <project path="hardware/qcom/media-caf" name="CyanogenMod/android_hardware_qcom_media-caf" remote="gh" revision="cm-10.2" groups="caf" />
   <project path="device/htc/msm8960-common" name="CyanogenMod/android_device_htc_msm8960-common" remote="gh" revision="cm-10.2" />
-  <project path="device/htc/dlx" name="yun3195/android_device_htc_dlx" remote="gh" revision="slim" />
+  <project path="device/htc/dlx" name="yun3195/android_device_htc_dlx" remote="gh" revision="slim-431" />
   <project path="kernel/htc/m7" name="CyanogenMod/android_kernel_htc_m7" remote="gh" revision="cm-10.2" />
   <project path="vendor/htc/dlx" name="MoKee/android_vendor_htc_dlx" remote="gh" revision="jb-mr2_mkt" />
   <project path="packages/apps/Dialer" name="LOSP/packages_apps_Dialer" remote="gh" revision="jb43" />
