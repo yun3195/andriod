@@ -17,11 +17,16 @@
   <remote  name="cm"
            fetch="git://github.com"
 	   review="review.cyanogenmod.org" />
+<<<<<<< HEAD
 	   
   <remote  name="mk"
            fetch="https://github.com/" />
 
   <default revision="refs/tags/android-4.3.1_r1"
+=======
+
+  <default revision="refs/tags/android-4.3_r3.1"
+>>>>>>> upstream/jb43-legacy
            remote="aosp"
            sync-c="true"
            sync-f="true"
@@ -75,7 +80,10 @@
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
   <project path="external/chromium" name="platform/external/chromium" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
+<<<<<<< HEAD
+=======
   <project path="external/clang" name="platform/external/clang" groups="pdk" />
+>>>>>>> upstream/jb43-legacy
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
   <project path="external/crda" name="CyanogenMod/android_external_crda" remote="cm" revision="cm-10.2" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
@@ -312,8 +320,11 @@
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="CyanogenMod/android_packages_apps_VoiceDialer" remote="cm" revision="cm-10.2" />
   <project path="packages/experimental" name="platform/packages/experimental" />
+<<<<<<< HEAD
+=======
   <project path="packages/inputmethods/LatinIME" name="ParanoidAndroid/android_packages_inputmethods_LatinIME" remote="github" revision="jb43"/>
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
+>>>>>>> upstream/jb43-legacy
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
@@ -389,11 +400,15 @@
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
+<<<<<<< HEAD
+=======
   <project path="vendor/pa" name="ParanoidAndroid/android_vendor_pa" remote="github" revision="jb43-legacy" />
+>>>>>>> upstream/jb43-legacy
   <project path="vendor/tmobile/apps/ThemeChooser" name="ParanoidAndroid/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="github" revision="jb43" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="ParanoidAndroid/android_vendor_tmobile_libs_com.tmobile.themes" remote="github" revision="jb43" />
   <project path="vendor/tmobile/providers/ThemeManager" name="ParanoidAndroid/android_vendor_tmobile_providers_ThemeManager" remote="github" revision="jb43" />
 
+<<<<<<< HEAD
   <!-- HTC DNA 4.3 (dlx) -->
   <project path="device/htc/dlx" name="CyanogenMod/android_device_htc_dlx" remote="cm" revision="cm-10.2" />
   <project path="device/htc/msm8960-common" name="CyanogenMod/android_device_htc_msm8960-common" remote="cm" revision="cm-10.2" />
@@ -405,6 +420,9 @@
   <project path="external/clang" name="CyanogenMod/android_external_clang" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="vendor/pa" name="yun3195/android_vendor_pa" remote="mk" revision="jb43-legacy" />
 
+
+=======
+>>>>>>> upstream/jb43-legacy
   <project path="paranoid" name="ParanoidAndroid/paranoid" remote="github" revision="jb43" >
     <copyfile src="build.sh" dest="rom-build.sh" />    
   </project>
