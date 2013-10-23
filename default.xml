@@ -399,7 +399,7 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.2" />
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-10.2" />
  
-  <project name="yun3195/android_device_htc_dlx" path="device/htc/dlx" remote="yun" revision="jellybean-mr2.1" />
+  <project name="yun3195/android_device_htc_dlx" path="device/htc/dlx" remote="yun" revision="slim-431" />
   <project name="android_kernel_htc_m7" path="kernel/htc/m7" remote="cm" revision="cm-10.2" />
   <project name="android_device_htc_msm8960-common" path="device/htc/msm8960-common" remote="cm" revision="cm-10.2" />
   <project name="MoKee/android_vendor_htc_dlx" path="vendor/htc/dlx" remote="yun" revision="jb-mr2_mkt" />
